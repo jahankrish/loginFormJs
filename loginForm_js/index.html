@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="heading">
+        <h1>Login Form</h1>
+        </div>
+        <form class="form" id="form" action="" method="POST" action="main.html">
+            <label for="username">UserName :</label>
+            <input type="text" class="username" name="username" id="username" placeholder="Enter the username"></br>
+            <p id="userMessage"></p>
+            <label for="password">Password :</label>
+            <input type="password" class="password" name="password" id="password" placeholder="Enter the Password"></br>
+            <p id="passwordMessage"></p>
+            <input type="button" value="Login" onclick="validate()"/>
+            
+        </form>
+    </div>
+    </body>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <script defer src="./app.js"></script>
+</html>
